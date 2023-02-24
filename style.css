@@ -1,0 +1,624 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-item {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  box-shadow: none;
+  outline: none;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.navbar {
+  transition: all 0.3s;
+}
+
+.navbar-scrolled {
+  background: rgb(131 158 150);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .navbar-nav .nav-link.active {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  width: 100%;
+  height: 758px;
+  background: linear-gradient(
+      180deg,
+      rgba(18, 56, 39, 0.34) 0%,
+      rgba(40, 90, 67, 0.34) 47.92%,
+      rgba(40, 90, 67, 0.102) 100%
+    ),
+    url(./assets/hero.png);
+  position: relative;
+  z-index: 0;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fullscreen {
+  padding: 0;
+}
+
+.fullscreen .container {
+  height: 100%;
+}
+
+.fullscreen .container > .row {
+  height: 100%;
+  align-items: center;
+}
+
+.section-heading {
+  margin-bottom: 15px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.section-subheading {
+  margin-bottom: 37px;
+  margin-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.btn-brand {
+  background-color: #285a43 !important;
+  color: #fff !important;
+  margin-right: 10px;
+}
+
+.fa-sharp {
+  padding-right: 6px;
+}
+
+.btn-outline {
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+/* About Us */
+.about-heading {
+  color: #285a43;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: capitalize;
+  letter-spacing: 0.04em;
+}
+
+.about-subheading {
+  color: #121212;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#about {
+  margin-top: 100px;
+}
+
+#about > .row {
+  align-items: center;
+}
+
+/* About Cards */
+.about-cards {
+  padding-top: 90px;
+}
+
+.card {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.03) !important;
+  border-radius: 10px !important;
+}
+
+.service-box {
+  height: 24rem;
+  box-shadow: 10px 10px 20px rgb(0 0 0 / 2%);
+  border: 1px solid rgba(0, 0, 0, 0.03) !important;
+  border-radius: 10px !important;
+}
+
+.service-heading {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: 50px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #285a43;
+}
+
+.service-sub {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #121212;
+  margin-left: 50px;
+  margin-right: 41px;
+}
+
+/* Product */
+#product {
+  margin-top: 100px;
+}
+
+.product-heading {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #285a43 !important;
+  margin-bottom: 35px;
+}
+
+.favourite-logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.product-card-price {
+  align-items: center;
+}
+
+.product-card-title {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #337a5b !important;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.product-price {
+  padding-left: 10px;
+  display: flex;
+}
+
+.product-old-price {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration-line: line-through;
+  text-transform: capitalize;
+  color: #121212;
+}
+
+.product-og-price {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #337a5b;
+  padding-left: 7px;
+}
+
+.btn-success,
+.btn-outline-success {
+  background: #337a5b;
+}
+
+/* Benefit */
+#benefit,
+#gallery,
+#testimonial,
+#cta,
+#blog,
+#footer {
+  margin-top: 100px;
+}
+
+.about-card-img {
+  width: 178px;
+  padding-top: 54px;
+  padding-left: 52px;
+}
+
+.about-card-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285a43;
+  padding: 4px 48px;
+}
+
+.about-card-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #121212;
+  padding: 4px 48px;
+}
+
+.benefit-card {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+/* Testimonial */
+.testimonial-card {
+  background: #f8f8f8 !important;
+  margin-bottom: 50px;
+  box-shadow: none !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+.testimonial-head {
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.testimonial-head .name {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285a43;
+}
+
+.testimonial-card .description {
+  padding: 30px 70px 75px 40px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #121212;
+}
+
+/* CTA */
+.cta-background {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/assets/cta-background.png);
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cta-heading {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.form-control {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+
+.form-control::placeholder {
+  color: #fff !important;
+}
+
+.email-form .btn-success {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 16px;
+}
+
+/* Blog */
+.blog-card {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  border: none !important;
+  padding: 10px;
+}
+
+.blog-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  color: #285a43;
+  padding-bottom: 5px;
+}
+
+.blog-description {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #121212;
+  padding-bottom: 10px;
+}
+
+.blog-footer {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.b-date {
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.blog-date {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(18, 18, 18, 0.8);
+}
+
+.read-more {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: #285a43;
+}
+
+.r-arrow {
+  color: #285a43;
+}
+
+/* Footer */
+.footer-bg {
+  background: #285a43;
+  height: 375px;
+}
+
+.footer-bg .container {
+  height: 100%;
+}
+
+.footer-bg .footer-main {
+  height: 100%;
+}
+
+.footer-heading {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #ffffff;
+  padding-top: 70px;
+}
+
+.footer-social,
+.footer-links {
+  padding-top: 30px;
+}
+
+.footer-links .nav-item {
+  padding: 4px 8px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.copyright-box {
+  background: #121212;
+}
+
+.copyright {
+  padding: 8px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+/* Responsive */
+
+/* xl */
+@media only screen and (max-width: 1400px) {
+  .gallery-main {
+    padding: 5px;
+  }
+  .footer-bg-1 {
+    width: 320px;
+  }
+  .footer-bg-2 {
+    width: 320px;
+  }
+}
+
+/* lg */
+@media only screen and (max-width: 1200px) {
+  .p-price-div {
+    padding: 0 !important;
+  }
+  .about-card-img {
+    width: 126px;
+    padding-top: 34px;
+    padding-left: 32px;
+  }
+  .about-card-title,
+  .about-card-text {
+    padding: 4px 24px;
+  }
+  .gallery-main {
+    padding: 5px;
+  }
+  .footer-bg-1 {
+    width: 320px;
+  }
+  .footer-bg-2 {
+    width: 320px;
+  }
+}
+
+/* md */
+@media only screen and (max-width: 992px) {
+  .section-heading {
+    font-size: 56px;
+  }
+  .section-subheading {
+    font-size: 16px;
+  }
+  .about-heading {
+    font-size: 30px;
+  }
+  .about-subheading {
+    font-size: 16px;
+  }
+  .p-price-div {
+    padding: 0 !important;
+  }
+  .benefit-bg {
+    width: 100% !important;
+  }
+  .about-card-img {
+    width: 178px;
+    padding-top: 54px;
+    padding-left: 52px;
+  }
+  .gallery-main {
+    padding: 5px;
+  }
+  .footer-bg-1 {
+    width: 320px;
+  }
+  .footer-bg-2 {
+    width: 320px;
+  }
+}
+
+/* sm */
+@media only screen and (max-width: 768px) {
+  .section-heading {
+    font-size: 52px;
+  }
+  .section-subheading {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  .benefit-bg,
+  .blog-bg {
+    width: 100% !important;
+  }
+  .gallery-main {
+    width: 100% !important;
+    padding: 5px;
+  }
+  .footer-bg-1 {
+    width: 320px;
+  }
+  .footer-bg-2 {
+    width: 300px;
+  }
+}
+
+/* xs */
+@media only screen and (max-width: 575px) {
+  .footer-bg-1 {
+    width: 300px;
+  }
+  .footer-bg-2 {
+    opacity: 0 !important;
+  }
+  .footer-heading {
+    font-size: 28px;
+    font-weight: 200;
+  }
+  .benefit-card-mb-1 {
+    background: #ffffff !important;
+  }
+  .benefit-card-mb-2 {
+    background: #f8f8f8 !important;
+  }
+  .gallery-main {
+    padding: 5px;
+  }
+  .product-heading {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .cta-heading {
+    text-align: center !important;
+    font-weight: 200;
+    font-size: 28px;
+  }
+  .product-card-title,
+  .product-price {
+    padding-left: 0px;
+  }
+  .section-heading {
+    font-size: 48px;
+  }
+  .section-subheading {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .book-now-btn {
+    margin-bottom: 8px;
+  }
+  #about,
+  #product,
+  #benefit,
+  #gallery,
+  #testimonial,
+  #cta,
+  #blog,
+  #footer {
+    margin-top: 90px;
+  }
+  .about-heading {
+    font-size: 28px;
+  }
+  .about-cards {
+    padding-top: 70px;
+  }
+  .p-price-div-btn {
+    display: flex;
+    justify-content: end;
+  }
+}

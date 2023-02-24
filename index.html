@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Animatiion -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Theemwiz Technical Test</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo/logo.svg" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Planters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-sm btn-outline-light px-5 py-2"
+                href="tel:+4733378901"
+                >Call Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Wrapper or Section -->
+    <div class="wrapper" id="home">
+      <section class="text-center fullscreen hero">
+        <div class="container" data-aos="zoom-out" data-aos-delay="100">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="m-b-20 section-heading">
+                Nature's Beauty Delivered to You
+              </h1>
+              <p class="m-b-40 section-subheading">
+                Nature's beauty is just a click away with our online flower and
+                plant shop. We offer a
+                <br />
+                wide variety of flowers that will bring a touch of nature to
+                your home!
+              </p>
+              <p>
+                <a
+                  href="#btn"
+                  class="btn btn-sm btn-brand px-5 py-2 book-now-btn"
+                  >Book Now</a
+                >
+                <a href="#btn" class="btn btn-sm btn-outline-light px-5 py-2"
+                  ><i class="fa-sharp fa-regular fa-circle-play"></i>Watch
+                  Video</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- About Us -->
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col-md-5">
+          <h1 class="about-heading" data-aos="fade-up" data-aos-delay="100">
+            We Help choose the most suitable plants for you
+          </h1>
+        </div>
+        <div class="col-md-7">
+          <p class="about-subheading" data-aos="fade-up" data-aos-delay="100">
+            Our selection includes a wide variety of flowers, from classic roses
+            to exotic orchids, as well as a variety of lush indoor and outdoor
+            plants and also offer unique floral arrangements that are perfect
+            for any occasion, whether you're looking to brighten up your home or
+            send a thoughtful gift.
+          </p>
+        </div>
+      </div>
+      <!-- About Cards -->
+      <div class="row about-cards gy-3">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+          <div class="service-box">
+            <div class="service-icon mt-4" style="margin-left: 30px">
+              <img src="/assets/Indoor_Plant.png" alt="indoor_plant" />
+            </div>
+            <div class="service-content">
+              <h3 class="service-heading mt-1">Indoor Plant</h3>
+              <p class="service-sub mt-3">
+                Bring the beauty of nature to your outdoor spaces with our wide
+                selection of outdoor plants
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+          <div class="service-box" style="background: #337a5b">
+            <div class="service-icon mt-4" style="margin-left: 30px">
+              <img src="/assets/Outdoor_Plant.png" alt="outdoor_plant" />
+            </div>
+            <div class="service-content">
+              <h3 class="service-heading mt-1" style="color: #fff">
+                Outdoor Plant
+              </h3>
+              <p class="service-sub mt-3" style="color: #fff">
+                Bring a touch of greenery to your living spaces with our
+                collection of indoor plants, perfect for purifying the air and
+                adding a natural touch to your home.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+          <div class="service-box">
+            <div class="service-icon mt-4" style="margin-left: 30px">
+              <img src="/assets/Bamboo.png" alt="bamboo_plant" />
+            </div>
+            <div class="service-content">
+              <h3 class="service-heading mt-1">Plants Pots</h3>
+              <p class="service-sub mt-3">
+                Add a touch of style to your indoor or outdoor spaces with our
+                collection of pots plants, available in a variety of sizes and
+                designs to fit any decor
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product -->
+    <div class="container" id="product">
+      <h1 class="product-heading text-center">What we offer to you</h1>
+      <div class="row product-cards gy-3" data-aos="zoom-in-up">
+        <div
+          class="col-lg-3 col-md-4 col-sm-6 col-12"
+          data-aos="zoom-in-up"
+          data-aos-delay="100"
+        >
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/280x250"
+              class="card-img-top"
+              alt="product-preview"
+            />
+            <div class="favourite-logo">
+              <img src="/assets/Love.svg" alt="fav" />
+            </div>
+            <div class="card-body">
+              <div class="row product-card-price">
+                <div class="col-6 p-price-div">
+                  <h5 class="product-card-title mb-0">Cactus Plant</h5>
+                  <div class="product-price">
+                    <div class="product-old-price">($10)</div>
+                    <div class="product-og-price">$8</div>
+                  </div>
+                </div>
+                <div class="col-6 p-price-div p-price-div-btn">
+                  <a href="#" class="btn btn-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-4 col-sm-6 col-12"
+          data-aos="zoom-in-up"
+          data-aos-delay="100"
+        >
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/280x250"
+              class="card-img-top"
+              alt="product-preview"
+            />
+            <div class="favourite-logo">
+              <img src="/assets/Love1.svg" alt="fav" />
+            </div>
+            <div class="card-body">
+              <div class="row product-card-price">
+                <div class="col-6 p-price-div">
+                  <h5 class="product-card-title mb-0">Cactus Plant</h5>
+                  <div class="product-price">
+                    <div class="product-old-price">($10)</div>
+                    <div class="product-og-price">$8</div>
+                  </div>
+                </div>
+                <div class="col-6 p-price-div p-price-div-btn">
+                  <a href="#" class="btn btn-outline-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-4 col-sm-6 col-12"
+          data-aos="zoom-in-up"
+          data-aos-delay="100"
+        >
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/280x250"
+              class="card-img-top"
+              alt="product-preview"
+            />
+            <div class="favourite-logo">
+              <img src="/assets/Love1.svg" alt="fav" />
+            </div>
+            <div class="card-body">
+              <div class="row product-card-price">
+                <div class="col-6 p-price-div">
+                  <h5 class="product-card-title mb-0">Cactus Plant</h5>
+                  <div class="product-price">
+                    <div class="product-old-price">($10)</div>
+                    <div class="product-og-price">$8</div>
+                  </div>
+                </div>
+                <div class="col-6 p-price-div p-price-div-btn">
+                  <a href="#" class="btn btn-outline-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-4 col-sm-6 col-12"
+          data-aos="zoom-in-up"
+          data-aos-delay="100"
+        >
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/280x250"
+              class="card-img-top"
+              alt="product-preview"
+            />
+            <div class="favourite-logo">
+              <img src="/assets/Love1.svg" alt="fav" />
+            </div>
+            <div class="card-body">
+              <div class="row product-card-price">
+                <div class="col-6 p-price-div">
+                  <h5 class="product-card-title mb-0">Cactus Plant</h5>
+                  <div class="product-price">
+                    <div class="product-old-price">($10)</div>
+                    <div class="product-og-price">$8</div>
+                  </div>
+                </div>
+                <div class="col-6 p-price-div p-price-div-btn">
+                  <a href="#" class="btn btn-outline-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-4 col-sm-6 col-12"
+          data-aos="zoom-in-up"
+          data-aos-delay="100"
+        >
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/280x250"
+              class="card-img-top"
+              alt="product-preview"
+            />
+            <div class="favourite-logo">
+              <img src="/assets/Love1.svg" alt="fav" />
+            </div>
+            <div class="card-body">
+              <div class="row product-card-price">
+                <div class="col-6 p-price-div">
+                  <h5 class="product-card-title mb-0">Cactus Plant</h5>
+                  <div class="product-price">
+                    <div class="product-old-price">($10)</div>
+                    <div class="product-og-price">$8</div>
+                  </div>
+                </div>
+                <div class="col-6 p-price-div p-price-div-btn">
+                  <a href="#" class="btn btn-outline-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-4 col-sm-6 col-12"
+          data-aos="zoom-in-up"
+          data-aos-delay="100"
+        >
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/280x250"
+              class="card-img-top"
+              alt="product-preview"
+            />
+            <div class="favourite-logo">
+              <img src="/assets/Love1.svg" alt="fav" />
+            </div>
+            <div class="card-body">
+              <div class="row product-card-price">
+                <div class="col-6 p-price-div">
+                  <h5 class="product-card-title mb-0">Cactus Plant</h5>
+                  <div class="product-price">
+                    <div class="product-old-price">($10)</div>
+                    <div class="product-og-price">$8</div>
+                  </div>
+                </div>
+                <div class="col-6 p-price-div p-price-div-btn">
+                  <a href="#" class="btn btn-outline-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-4 col-sm-6 col-12"
+          data-aos="zoom-in-up"
+          data-aos-delay="100"
+        >
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/280x250"
+              class="card-img-top"
+              alt="product-preview"
+            />
+            <div class="favourite-logo">
+              <img src="/assets/Love1.svg" alt="fav" />
+            </div>
+            <div class="card-body">
+              <div class="row product-card-price">
+                <div class="col-6 p-price-div">
+                  <h5 class="product-card-title mb-0">Cactus Plant</h5>
+                  <div class="product-price">
+                    <div class="product-old-price">($10)</div>
+                    <div class="product-og-price">$8</div>
+                  </div>
+                </div>
+                <div class="col-6 p-price-div p-price-div-btn">
+                  <a href="#" class="btn btn-outline-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-4 col-sm-6 col-12"
+          data-aos="zoom-in-up"
+          data-aos-delay="100"
+        >
+          <div class="card">
+            <img
+              src="https://via.placeholder.com/280x250"
+              class="card-img-top"
+              alt="product-preview"
+            />
+            <div class="favourite-logo">
+              <img src="/assets/Love1.svg" alt="fav" />
+            </div>
+            <div class="card-body">
+              <div class="row product-card-price">
+                <div class="col-6 p-price-div">
+                  <h5 class="product-card-title mb-0">Cactus Plant</h5>
+                  <div class="product-price">
+                    <div class="product-old-price">($10)</div>
+                    <div class="product-og-price">$8</div>
+                  </div>
+                </div>
+                <div class="col-6 p-price-div p-price-div-btn">
+                  <a href="#" class="btn btn-outline-success">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefit -->
+    <div class="benefit" id="benefit">
+      <div class="grid" style="row-gap: 0; column-gap: 0" data-aos="fade-up">
+        <!-- image side -->
+        <div
+          class="g-col-12 g-col-lg-6 g-col-md-12 p-0"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <img
+            class="benefit-bg img-fluid h-100"
+            src="/assets/benefit.png"
+            alt="benefit-main"
+            style="
+              background: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.1),
+                rgba(0, 0, 0, 0.1)
+              );
+            "
+          />
+        </div>
+        <!-- card side -->
+        <div class="g-col-12 g-col-lg-6 g-col-md-12 p-0">
+          <div
+            class="grid"
+            style="row-gap: 0; column-gap: 0"
+            data-aos="fade-up"
+          >
+            <div
+              class="g-col-12 g-col-sm-6 p-0"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="card benefit-card">
+                <img
+                  src="/assets/benefit-2.png"
+                  class="about-card-img"
+                  alt="loading"
+                />
+                <div class="card-body">
+                  <h5 class="about-card-title mb-0">Quality Product</h5>
+                  <p class="about-card-text">
+                    Our flowers are of the highest quality, carefully selected
+                    and sourced from reputable
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="g-col-12 g-col-sm-6 p-0"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="card benefit-card" style="background: #f8f8f8">
+                <img
+                  src="/assets/benefit-3.png"
+                  class="about-card-img"
+                  alt="loading"
+                />
+                <div class="card-body">
+                  <h5 class="about-card-title mb-0">Always Fresh</h5>
+                  <p class="about-card-text">
+                    Our flowers are always fresh, handpicked and delivered
+                    promptly for maximum longevity and enjoyment.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid m-0"
+            style="row-gap: 0; column-gap: 0"
+            data-aos="fade-up"
+          >
+            <div
+              class="g-col-12 g-col-sm-6 p-0"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div
+                class="card benefit-card benefit-card-mb-1"
+                style="background: #f8f8f8"
+              >
+                <img
+                  src="/assets/benefit-4.png"
+                  class="about-card-img"
+                  alt="loading"
+                />
+                <div class="card-body">
+                  <h5 class="about-card-title mb-0">Work Smart</h5>
+                  <p class="about-card-text">
+                    We work smart, using innovative techniques and technology to
+                    streamline our processes
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="g-col-12 g-col-sm-6 p-0"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="card benefit-card benefit-card-mb-2">
+                <img
+                  src="/assets/benefit-5.png"
+                  class="about-card-img"
+                  alt="loading"
+                />
+                <div class="card-body">
+                  <h5 class="about-card-title mb-0">Excelent Service</h5>
+                  <p class="about-card-text">
+                    We pride ourselves on providing excellent service, going
+                    above and beyond to meet our customers' needs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gallery" id="gallery">
+      <h1
+        class="product-heading text-center"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        Our Gallery View
+      </h1>
+      <!-- gallery -->
+      <div
+        class="grid"
+        style="row-gap: 0; column-gap: 0; --bs-gap: 0 1rem"
+        data-aos="zoom-in"
+      >
+        <div
+          class="g-col-12 g-col-md-4 g-col-lg-4"
+          data-aos="zoom-in"
+          data-aos-delay="100"
+        >
+          <img
+            class="gallery-main img-fluid h-100"
+            src="/assets/gallery-1.png"
+            alt="gallery-1"
+          />
+        </div>
+        <div class="g-col-12 g-col-md-8 g-col-lg-8" data-aos="zoom-in">
+          <div class="grid" style="row-gap: 0; column-gap: 0">
+            <div
+              class="g-col-12 g-col-sm-6"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <img
+                class="gallery-main img-fluid"
+                src="/assets/gallery-2.png"
+                alt="gallery-2"
+              />
+            </div>
+            <div
+              class="g-col-12 g-col-sm-6"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <img
+                class="gallery-main img-fluid"
+                src="/assets/gallery-3.png"
+                alt="gallery-3"
+              />
+            </div>
+          </div>
+          <div class="grid" style="row-gap: 0; column-gap: 0">
+            <div
+              class="g-col-12 g-col-sm-6"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <img
+                class="gallery-main img-fluid"
+                src="/assets/gallery-4.png"
+                alt="gallery-4"
+              />
+            </div>
+            <div
+              class="g-col-12 g-col-sm-6"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <img
+                class="gallery-main img-fluid"
+                src="/assets/gallery-5.png"
+                alt="gallery-5"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div class="container" id="testimonial">
+      <h1
+        class="product-heading text-center"
+        data-aos="zoom-in"
+        data-aos-delay="100"
+      >
+        What do they say about us
+      </h1>
+      <div class="row gy-3" data-aos="fade-up">
+        <div
+          class="col-lg-4 col-md-6 col-12"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="card testimonial-card position-relative h-100">
+            <div class="d-flex testimonial-head">
+              <div>
+                <img src="/assets/avatar-1.png" alt="..." />
+              </div>
+              <div class="ms-3">
+                <span class="name">Jessica Watson</span>
+              </div>
+            </div>
+            <span class="description">
+              “ Highly recommend this website for quality flowers and plants.
+              Great prices, timely delivery and excellent customer service. ”
+            </span>
+            <img
+              class="position-absolute bottom-0 end-0"
+              src="/assets/testimonial-1.svg"
+              alt="testimonial"
+            />
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-md-6 col-12"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="card testimonial-card position-relative h-100">
+            <div class="d-flex testimonial-head">
+              <div>
+                <img src="/assets/avatar-2.png" alt="..." />
+              </div>
+              <div class="ms-3">
+                <span class="name">Kate Szu</span>
+              </div>
+            </div>
+            <span class="description">
+              "Great service, beautiful flowers, timely delivery. Highly
+              recommend."
+            </span>
+            <img
+              class="position-absolute bottom-0 end-0"
+              src="/assets/testimonial-2.svg"
+              alt="testimonial"
+            />
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-md-6 col-12"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="card testimonial-card position-relative h-100">
+            <div class="d-flex testimonial-head">
+              <div>
+                <img src="/assets/avatar-3.png" alt="..." />
+              </div>
+              <div class="ms-3">
+                <span class="name">Grace </span>
+              </div>
+            </div>
+            <span class="description">
+              "I am very happy with my purchase from this website, the plants
+              were healthy and arrived on time.”
+            </span>
+            <img
+              class="position-absolute bottom-0 end-0"
+              src="/assets/testimonial-3.svg"
+              alt="testimonial"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta" id="cta">
+      <section class="cta-background fullscreen">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-12" data-aos="zoom-in">
+              <h1 class="cta-heading" data-aos="zoom-in" data-aos-delay="100">
+                Enter your email address for our mailing Promo or other
+                interesting things
+              </h1>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+              <div class="form-outline d-flex email-form">
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control bg-transparent text-light me-4 py-2"
+                  placeholder="Enter your email"
+                />
+                <button class="btn btn-success px-5" type="submit">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Blog -->
+    <div class="container" id="blog">
+      <h1
+        class="product-heading text-center"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        Interesting blog to read
+      </h1>
+      <div class="row gy-3 gx-3" data-aos="fade-up">
+        <div
+          class="col-lg-4 col-md-6 col-12"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="card blog-card h-100">
+            <div class="blog-head">
+              <img
+                class="blog-bg img-fluid"
+                src="/assets/blog-1.png"
+                alt="..."
+              />
+            </div>
+            <span class="blog-title mt-1 h-100"
+              >More productive with an atmosphere of greenery</span
+            >
+            <span class="blog-description"
+              >An atmosphere of greenery can increase productivity in the
+              workplace. Studies show that plants improve air quality and
+              decrease stress...</span
+            >
+            <div class="d-flex blog-footer">
+              <div class="date">
+                <i class="fa-solid fa-calendar-days b-date"></i
+                ><span class="blog-date ms-2">January 20, 2023</span>
+              </div>
+              <div class="more">
+                <span class="read-more me-2">Read more</span>
+                <i class="fa-solid fa-arrow-right r-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-md-6 col-12"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="card blog-card h-100">
+            <div class="blog-head">
+              <img
+                class="blog-bg img-fluid"
+                src="/assets/blog-2.png"
+                alt="..."
+              />
+            </div>
+            <span class="blog-title mt-1 h-100"
+              >The benefits of plants in your room</span
+            >
+            <span class="blog-description"
+              >Plants in your room can bring numerous benefits, such as improved
+              air quality, reduced stress, and increased feelings of
+              well-being....</span
+            >
+            <div class="d-flex blog-footer">
+              <div class="date">
+                <i class="fa-solid fa-calendar-days b-date"></i
+                ><span class="blog-date ms-2">January 10, 2023</span>
+              </div>
+              <div class="more">
+                <span class="read-more me-2">Read more</span>
+                <i class="fa-solid fa-arrow-right r-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-4 col-md-6 col-12"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="card blog-card h-100">
+            <div class="blog-head">
+              <img
+                class="blog-bg img-fluid"
+                src="/assets/blog-3.png"
+                alt="..."
+              />
+            </div>
+            <span class="blog-title mt-1 h-100"
+              >Hobbyist plants in the house</span
+            >
+            <span class="blog-description"
+              >Having hobbyist plants in the house is a great way to bring
+              nature indoors. Not only do they purify the air, but
+              they....</span
+            >
+            <div class="d-flex blog-footer">
+              <div class="date">
+                <i class="fa-solid fa-calendar-days b-date"></i
+                ><span class="blog-date ms-2">January 15, 2023</span>
+              </div>
+              <div class="more">
+                <span class="read-more me-2">Read more</span>
+                <i class="fa-solid fa-arrow-right r-arrow"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-bg position-relative" id="footer">
+      <div class="container">
+        <footer class="footer-main py-3 my-4">
+          <h2 class="footer-heading text-center">Feel free to contact us</h2>
+          <ul class="nav footer-social justify-content-center pb-3">
+            <li class="nav-item social-icon mx-4">
+              <a href="http://instagram.com">
+                <img src="/assets/iInstagram.svg" alt="instagram" />
+              </a>
+            </li>
+            <li class="nav-item social-icon mx-4">
+              <a href="http://facebook.com">
+                <img src="/assets/facebook.svg" alt="facebook" />
+              </a>
+            </li>
+            <li class="nav-item social-icon mx-4">
+              <a href="http://twittter.com">
+                <img src="/assets/twitter.svg" alt="twitter" />
+              </a>
+            </li>
+          </ul>
+          <ul class="nav footer-links justify-content-center pb-3">
+            <li class="nav-item f-link">Home</li>
+            <li class="nav-item f-link">About Us</li>
+            <li class="nav-item f-link">Plants</li>
+            <li class="nav-item f-link">Delivery</li>
+            <li class="nav-item f-link">Blog</li>
+            <li class="nav-item f-link">Contact Us</li>
+          </ul>
+        </footer>
+      </div>
+      <div class="copyright-box text-center">
+        <h6 class="copyright">Copyright © 2021 Lush. All rights reserved.</h6>
+      </div>
+      <img
+        class="footer-bg-1 position-absolute bottom-0 start-0"
+        src="/assets/Monstera.svg"
+        alt="..."
+        style="opacity: 0.2"
+      />
+      <img
+        class="footer-bg-2 position-absolute bottom-0 end-0"
+        src="/assets/Fern.svg"
+        alt="..."
+        style="opacity: 0.2"
+      />
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript -->
+    <script>
+      const navEl = document.querySelector(".navbar");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY >= 56) {
+          navEl.classList.add("navbar-scrolled");
+        } else if (window.scrollY < 56) {
+          navEl.classList.remove("navbar-scrolled");
+        }
+      });
+    </script>
+    <!-- Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
